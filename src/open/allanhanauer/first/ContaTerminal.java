@@ -1,3 +1,5 @@
+package open.allanhanauer.first;
+
 public class ContaTerminal {
     private final int ID;
     private String agency;
