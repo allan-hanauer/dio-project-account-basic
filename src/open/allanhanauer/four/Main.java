@@ -8,6 +8,7 @@ public class Main {
         dioBank.createAccount(2, new Account(3, 3000));
         System.out.println(dioBank.getBalance(0));
         System.out.println(dioBank.getBalance(1));
+        dioBank.deposit(2,250);
         dioBank.transfer(1,0,250);
         System.out.println(dioBank.getBalance(0));
         System.out.println(dioBank.getBalance(1));
