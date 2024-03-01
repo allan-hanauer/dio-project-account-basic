@@ -11,6 +11,7 @@ public class Main {
         dioBank.deposit(2,250);
         dioBank.deposit(1,550);
         dioBank.transfer(1,0,250);
+        dioBank.transfer(2,1,420);
         System.out.println(dioBank.getBalance(0));
         System.out.println(dioBank.getBalance(1));
         System.out.println("Accounts:");
