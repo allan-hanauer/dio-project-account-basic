@@ -14,6 +14,7 @@ public class Main {
         dioBank.transfer(2,1,420);
         System.out.println(dioBank.getBalance(0));
         System.out.println(dioBank.getBalance(1));
+        System.out.println(dioBank.getBalance(2));
         System.out.println("Accounts:");
         for (int i = 0; i < 3; i++) {
             System.out.println(dioBank.getAccount(i));
